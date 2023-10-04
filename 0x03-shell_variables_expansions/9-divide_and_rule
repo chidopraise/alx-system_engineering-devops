@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((POWER / DIVTDE))
+echo "$(($(echo "$POWER") / $(echo "$DIVIDE")))"
